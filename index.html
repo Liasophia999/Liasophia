@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>La primera pagina de Lia</title>
+
+    <!--CSS-->
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+
+        /*Estilo del cuerpo de la pagina */
+        body {
+            font-family: Arial;
+            margin: 0;
+        }
+
+        /*Header/Logo y Titulo */
+        .header {
+            padding: 60px;
+            text-align: center;
+            background: #e7d2e8a4;
+            color: rgb(72, 62, 62);
+        }
+
+        /*Estilo de la barra de navegacion*/
+        .navbar {
+            display: flex;
+            background-color: #aba1c1;
+        }
+
+        /*Estlo de los enlances de la barra de navegacion*/
+        .navbar a{
+            color: white;
+            padding: 14px 20px;
+            text-decoration: none;
+            text-align: center;
+        }
+
+        /* Cambiar el color cuando paso el mouse */
+        .navbar a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+
+        /* Contenedor de columnas */
+        .row {
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        /* Barra lateral */
+        .side {
+            flex: 30%;
+            background-color: #c3a9a9;
+            padding: 20px;
+        }
+
+        /* Columna principal */
+        .main {
+            flex: 70%;
+            background-color: white;
+            padding: 20px;
+        }
+
+        /* Imagenes falsas, solo de ejemplo */
+        .imagenfalsa {
+            background-color: #aaa;
+            width: 100px;
+            padding: 20px;
+        }
+
+        /*Footer */
+        .footer {
+            padding: 20px;
+            text-align: center;
+            background: #ddd;
+        }
+
+        /* Responsive layout - when the screen is less than 700px wide, make the two column stack on top of each other instead of next to each other */
+        @media and (max-width: 700px) {
+            .row, 
+            .navbar {
+                flex-direction: column;
+            }
+            
+        }
+
+    </style>
+
+</head>
+<body>
+    <div style="background: rgb(199, 193, 215);padding: 5px;">
+        <h4 style="text-align: center;">Bienvenidos a mi página web</h4>
+    </div>
+    
+    <!--Header-->
+    <div class="header">
+        <h1>Lía Torres</h1>
+        <p>Estudiante muy <b>Inteligente</b> y <b>Creativa</b></p>
+    </div>
+
+    <!--Barra de navegacion-->
+    <div class="navbar">
+        <a href="index.html">Inicio</a>
+        <a href="quiensoy.html">Quién soy</a>
+         
+    </div>
+
+    <!--Contenido-->
+<div class="row">
+    <div class="side">
+        <h2>Acerca de mi</h2>
+        
+        <div class="imagenflasa" style="height: 200px;"><img src="imagen/WhatsApp Image 2025-03-30 at 11.03.14 PM.jpeg" alt="Mujer" width="200" height="auto"></div> 
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+
+
+        
+
+        
+          
+        <p class="texto">Mi nombre es Lía Sophia Torres Rodríguez, nací el 20 de julio del 2007 y tengo 17 años</p>
+
+        <p>Y esta es mi página donde me podrán conocer</p>
+        <div class="imagenflasa" style="height:60px;"></div><img src="imagen/WhatsApp Image 2025-03-31 at 7.59.03 PM.jpeg" alt="Mujer" width="200" height="200"></div>
+        <div class="imagenflasa" style="height:60px;"></div><img src="index.html.crswap" alt=""></div>
+        
+    
+
+<div class="main">
+    <h2></h2>
+    <p>*Estudiante</p>
+    <p>*Futura diseñadora de interiores</p>
+   
+    <br>
+    <br>
+    <br>
+    <p></p>
+    <br>
+    <h2></h2>
+    <p>En la sección de <a href="quiensoy.html">Quién soy</a>, podrán conocerme mas a fondo, tanto mi vida personal como estudiantil</p>
+   
+</div>
+</div>
+
+<!--Footer-->
+<div class="Footer">
+    <h2>&copy; 2025 Todos los derechos reservados Lía</h2>
+</div>
+</body>
+</html>
